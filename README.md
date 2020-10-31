@@ -21,7 +21,7 @@ prediction = classes[np.argmax(output)]
 ## GPS co-ordinates:
 ---  
 For GPS co-ordinates, we have a dataset of latitudes and longitudes obtained from [movebank.org](https://www.movebank.org/cms/movebank-main) for 10 different elephants collected by placing a collar with gps sensor on it.  
-We converted the co-ordinates of each elephant to a .geojson file as this is a standard format in which geospatial data is kept. This can be found in the repo [here](https://github.com/tirsaiwalamubin/elephant-edge/tree/master/geojson_files).  
+We converted the co-ordinates of each elephant to a .geojson file as this is a standard format in which geospatial data is kept. The conversion can be done using the [get_geojson.ipynb](https://github.com/tirsaiwalamubin/elephant-edge/blob/master/get_geojson.ipynb) file and geojson files can be found in the repo [here](https://github.com/tirsaiwalamubin/elephant-edge/tree/master/geojson_files).  
   
 ## Dashboard:  
 ---  
